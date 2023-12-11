@@ -1,4 +1,4 @@
-# Laravel Application
+# Invoices App
 
 This is a Laravel application that provides an invoicing API.
 
