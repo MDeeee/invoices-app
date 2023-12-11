@@ -85,19 +85,23 @@ This application provides an invoicing API with the following endpoints:
        "end_date": "2023-02-01",
        "customer_id": 1
    }
+   ```
 
    Example response:
 
+    ```json
    {
        "invoice_id": 1
    }
+   ```
 
 2. **Get  Invoice**: `GET /api/v1/admin/invoices/{id}`
 
    This endpoint retrieves the details of an invoice. Replace {id} with the ID of the invoice you want to retrieve.
 
    Example response:
-
+   
+    ```json
    {
         "invoice_id": 1,
         "customer_id": 1,
@@ -108,6 +112,7 @@ This application provides an invoicing API with the following endpoints:
             // ...
         ]
    }
+   ```
 
 3. **Admin Login**: `POST /api/v1/admin/auth/login`
 
