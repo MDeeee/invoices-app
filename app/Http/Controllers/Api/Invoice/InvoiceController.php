@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers\Api\Invoice;
 
-use App\Models\Invoice;
 use Illuminate\Http\Response;
 use Illuminate\Http\JsonResponse;
 use App\Http\Controllers\Controller;
