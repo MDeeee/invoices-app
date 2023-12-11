@@ -46,6 +46,7 @@ You can run the tests for the application using the following command:
 
 ```bash
 php artisan test
+```
 
 ## Postman Collection
 
